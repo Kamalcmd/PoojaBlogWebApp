@@ -20,7 +20,7 @@
         <div class="container">
             <div class="nav-mobile-block header-align d-xl-flex justify-content-between">
                 <div class="logo">
-                    <h1><a class="brand-logo" href="index.html">Pooja Shiwakoti </a></h1>
+                    <h1><a class="brand-logo" href="{{url_for('index')}}">Pooja Shiwakoti </a></h1>
 
                     <!-- if logo is image enable this   
                   <a class="brand-logo" href="#index.html">
@@ -33,15 +33,15 @@
                     <label for="drop" class="toggle">Menu</label>
                     <input type="checkbox" id="drop" class="height-full">
                     <ul class="menu">
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="active"><a href="{{url_for('index')}}">Home</a></li>
                         <li><a href="{{url_for('about_page')}}">About</a></li>
-                        <li><a href="services.html">Services</a></li>
+                        <!-- <li><a href="services.html">Services</a></li> -->
                         <li>
                             <!-- sumenu Drop Down -->
-                            <label for="drop-3" class="toggle toogle-3">Pages <span class="angle-dropdown"
+                            <!-- <label for="drop-3" class="toggle toogle-3">Pages <span class="angle-dropdown"
                                     aria-hidden="true"></span>
-                            </label>
-                            <a href="#pages">Pages <span class="angle-dropdown" aria-hidden="true"></span></a>
+                            </label> -->
+                            <!-- <a href="#pages">Pages <span class="angle-dropdown" aria-hidden="true"></span></a>
                             <input type="checkbox" id="drop-3">
 
                             <ul class="secound-menu">
@@ -56,12 +56,12 @@
                                 <li><a href="landing-single.html" class="drop-text">Landing page</a></li>
                             </ul>
                         </li>
-                        <li>
+                        <li> -->
                             <!-- First Tier Drop Down -->
-                            <label for="drop-4" class="toggle toogle-4">Blog <span class="angle-dropdown"
+                            <!-- <label for="drop-4" class="toggle toogle-4">Blog <span class="angle-dropdown"
                                     aria-hidden="true"></span>
-                            </label>
-                            <a href="#blog">Blog <span class="angle-dropdown" aria-hidden="true"></span></a>
+                            </label> -->
+                            <a href="{{url_for('blog')}}">Blog <span class="angle-dropdown" aria-hidden="true"></span></a>
                             <input type="checkbox" id="drop-4">
 
                             <ul class="single-menu">
@@ -69,7 +69,7 @@
                                 <li><a href="blog-single.html" class="drop-text">Blog Details</a></li>
                             </ul>
                         </li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="{{url_for('contact_page')}}">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -103,7 +103,7 @@
             <span class="logo-tag"></span>
           </h2>
         </div>
-        <a href="contact.html" class="logo-button top-margin">Let's Talk</a>
+        <a href="{{url_for('contact_page')}}" class="logo-button top-margin">Let's Talk</a>
       </div>
     </div>
   </div>
