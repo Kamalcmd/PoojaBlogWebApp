@@ -8,3 +8,6 @@ which include following Features:
 2.  Creat and call at least 3 functions or methods where at least one of which will return a value that 
     is used somewhere in the code.
 3.  Visualize data in graph, chart, or other visual representation of data.
+
+
+Using hashing algorithem for encrypt password  - installing flask-bcrypt
