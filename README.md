@@ -5,7 +5,7 @@ For this project, I choose to create a web application using python framework "f
 
 Flask is an excellent micro framework that really makes it enjoyable to work with these back-end web application. PoojaBlogWebApp is a blog style of an application where different users can make different posts it can be used for regular blog posts. 
 
-## which include following Features:
+## Code Louisville Project Requirements Met:
 1.  Read data from an external file, such as text, Images etc  from database 'sqlite:///site.db' and use that data in my application.
 2.  Create and call more than 3 functions or methods where at least one of which will return a value that is used somewhere in the code.
 3.  Visualize user account, blog post representation of data.
@@ -16,7 +16,7 @@ Flask is an excellent micro framework that really makes it enjoyable to work wit
 
 
 
-To run this project you should be considering creating virtual environment by following:
+## To run this project you should be considering creating virtual environment by following:
 Open the terminal/Cmd and locate the project file.
 1.  Setting up virtual environment  
         Python3 -m venv env
