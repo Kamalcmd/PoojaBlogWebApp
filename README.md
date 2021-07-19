@@ -1,11 +1,11 @@
-# PoojaBlogWebApp
+### PoojaBlogWebApp
 Final project for Code Louisville's May 2021 Session.
 
 For this project, I choose to create a web application using python framework "flask", HTML, CSS, Bootstrap.
 
 Flask is an excellent micro framework that really makes it enjoyable to work with these back-end web application. PoojaBlogWebApp is a blog style of an application where different users can make different posts it can be used for regular blog posts. 
 
-which include following Features:
+## which include following Features:
 1.  Read data from an external file, such as text, Images etc  from database 'sqlite:///site.db' and use that data in my application.
 2.  Create and call more than 3 functions or methods where at least one of which will return a value that is used somewhere in the code.
 3.  Visualize user account, blog post representation of data.
@@ -28,7 +28,7 @@ Open the terminal/Cmd and locate the project file.
 4.  Copy the URL shown in teriminal and paste it on browser.
 5.  To run application on debug Mode
         export FLASK_DEBUG=1    for macos
-        set FLASK_DEBUG=1       for windoes OS
+        set FLASK_DEBUG=1       for windows OS
 
 
 Using hashing algorithem for encrypt password  - installing flask-bcrypt
