@@ -1,4 +1,4 @@
-### PoojaBlogWebApp
+#### PoojaBlogWebApp
 Final project for Code Louisville's May 2021 Session.
 
 For this project, I choose to create a web application using python framework "flask", HTML, CSS, Bootstrap.
@@ -19,7 +19,7 @@ Flask is an excellent micro framework that really makes it enjoyable to work wit
 ## To run this project you should be considering creating virtual environment by following:
 Open the terminal/Cmd and locate the project file.
 1.  Setting up virtual environment  
-        Python3 -m venv env
+        python3 -m venv env
 2.  Activate environment
         .\env\scripts\activate   - For Windows OS
         source ./env/bin/activate - For Mac OS 
