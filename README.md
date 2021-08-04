@@ -21,7 +21,8 @@ Open the terminal/Cmd and locate the project file.
 1.  Setting up virtual environment  
         python3 -m venv env
 2.  Activate environment
-        .\env\scripts\activate   - For Windows OS
+        .\env\scripts\activate   - For Windows OS   
+        
         source ./env/bin/activate - For Mac OS 
 3.  To run this application locally 
         python3 run.py
